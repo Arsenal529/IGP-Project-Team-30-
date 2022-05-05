@@ -23,6 +23,9 @@ The models found that the most important feature in evaluation to be average spe
 This model performed well with an accuracy scoring of 75% on the test data. Followed by this, the model was used to precidt the trips made exclusively by ICE vehicles and create a dataset with the predictions. Upon analysing the predictions, it was found that 16% of ICE trips were wrongly predicted as EV and these vehicles can switch based on their driving behaviours.
 
 
+# ON K-MEANS CLUSTERING
+
+K-means clustering is an unsupervised machine learning model. It works by randomly selecting k-number of means and maps the rest of the data points to the nearest mean. Since this is an iterative process, it uses minimizing the total distance from the centroids (the randomly sekected means) to the data points to find the best means to cluster around. Along with it. the number of clustes are decided by plotting the SSE graph to k numbers to find an elbow point or the point of inflection. When thhe SSE is the minimum and increasing the number of means does not affect the error or increases it, we select the nearest k value to the elbow point. (Clarke, 2021)
 
 
 
